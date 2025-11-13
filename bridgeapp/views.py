@@ -15,3 +15,5 @@ def services(request):
 def starter(request):
     return render(request, 'starter-page.html')
 
+def services (request):
+    return render(request, 'services.html')

@@ -15,8 +15,8 @@
               <h2>Strategic Solutions for Business Growth</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="hero-btns">
-                <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
-                <a href="#services" class="btn btn-outline">Our Services</a>
+                <a href="{% url 'contact' %}" class="btn btn-primary">Get a Free Consultation</a>
+                <a href="{% url 'services' %}" class="btn btn-outline">Our Services</a>
               </div>
               <div class="hero-stats">
                 <div class="stat-item">
@@ -36,7 +36,7 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/about/about-8.webp" alt="Consulting Services" class="img-fluid">
+              <img src="{% static 'assets/img/about/about-8.webp' %}" alt="Consulting Services" class="img-fluid">
             </div>
           </div>
         </div>
@@ -85,73 +85,73 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-1.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-2.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-3.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-4.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-5.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-6.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-1.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-2.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-3.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-4.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-5.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="">
+                <img src="{% static 'assets/img/clients/clients-6.webp' %}" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
@@ -176,7 +176,7 @@
           </div>
           <div class="col-lg-5 text-lg-end text-center" data-aos="zoom-in" data-aos-delay="300">
             <div class="stats-rating d-inline-flex align-items-center py-3 px-4 shadow-sm">
-              <img src="assets/img/about/about-1.webp" class="img-fluid stats-rating-img me-3" alt="User Group" width="64" height="48">
+              <img src="{% static 'assets/img/about/about-1.webp' %}" class="img-fluid stats-rating-img me-3" alt="User Group" width="64" height="48">
               <div>
                 <div class="rating-score d-flex align-items-center mb-1">
                   <span class="fs-5 fw-semibold me-2">4.8/5</span>
@@ -250,7 +250,7 @@
               <div class="card-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <div class="feature-image">
-                  <img src="assets/img/services/services-1.webp" alt="Security Services" class="img-fluid">
+                  <img src="{% static 'assets/img/services/services-1.webp' %}" alt="Security Services" class="img-fluid">
                 </div>
               </div>
               <div class="card-footer">
@@ -273,7 +273,7 @@
               <div class="card-body">
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
                 <div class="feature-image">
-                  <img src="assets/img/services/services-2.webp" alt="Technology Solutions" class="img-fluid">
+                  <img src="{% static 'assets/img/services/services-2.webp' %}" alt="Technology Solutions" class="img-fluid">
                 </div>
               </div>
               <div class="card-footer">
@@ -296,7 +296,7 @@
               <div class="card-body">
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <div class="feature-image">
-                  <img src="assets/img/services/services-3.webp" alt="Innovation Services" class="img-fluid">
+                  <img src="{% static 'assets/img/services/services-3.webp' %}" alt="Innovation Services" class="img-fluid">
                 </div>
               </div>
               <div class="card-footer">
@@ -319,7 +319,7 @@
               <div class="card-body">
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
                 <div class="feature-image">
-                  <img src="assets/img/services/services-4.webp" alt="Strategic Planning" class="img-fluid">
+                  <img src="{% static 'assets/img/services/services-4.webp' %}" alt="Strategic Planning" class="img-fluid">
                 </div>
               </div>
               <div class="card-footer">
@@ -369,7 +369,7 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="featured-image-container">
-              <img src="assets/img/features/features-3.webp" alt="Digital Solutions" class="img-fluid">
+              <img src="{% static 'assets/img/features/features-3.webp' %}" alt="Digital Solutions" class="img-fluid">
               <div class="floating-badge">
                 <i class="bi bi-award"></i>
                 <span>Industry Leader</span>
@@ -585,7 +585,7 @@
 
           <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="300">
             <div class="image-wrapper">
-              <img src="assets/img/about/about-portrait-3.webp" alt="" class="img-fluid rounded-4">
+              <img src="{% static 'assets/img/about/about-portrait-3.webp' %}" alt="" class="img-fluid rounded-4">
             </div>
           </div>
         </div>
@@ -610,7 +610,7 @@
             <div class="col-lg-6 order-lg-2">
               <div class="image-section" data-aos="fade-left" data-aos-delay="200">
                 <div class="main-image-wrapper">
-                  <img src="assets/img/cta/cta-4.webp" alt="CTA Image" class="img-fluid main-img">
+                  <img src="{% static 'assets/img/cta/cta-4.webp' %}" alt="CTA Image" class="img-fluid main-img">
                   <div class="overlay-circle circle-1"></div>
                   <div class="overlay-circle circle-2"></div>
                 </div>

@@ -10,7 +10,7 @@ def portfolio(request):
     return render(request, 'portfolio.html')
 
 def services(request):
-    return render(request, 'service-details.html')
+    return render(request, 'services.html')
 
 def starter(request):
     return render(request, 'starter-page.html')

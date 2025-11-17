@@ -7,7 +7,7 @@ def index(request):
     return render(request, 'index.html')
 
 def portfolio(request):
-    return render(request, 'portfolio-details.html')
+    return render(request, 'portfolio.html')
 
 def services(request):
     return render(request, 'service-details.html')
@@ -23,3 +23,26 @@ def contact(request):
 
 def terms(request):
     return render(request, 'T&C.html')
+
+def portfolio(request):
+    return render(request, 'portfolio.html')
+
+def team(request):
+    return render(request, 'team.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

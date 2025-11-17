@@ -15,5 +15,11 @@ def services(request):
 def starter(request):
     return render(request, 'starter-page.html')
 
-def services (request):
-    return render(request, 'services.html')
+def about(request):
+    return render(request, 'about.html')
+
+def contact(request):
+    return render(request, 'contact.html')
+
+def terms(request):
+    return render(request, 'T&C.html')
